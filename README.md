@@ -15,21 +15,21 @@ Este website oferece gratuitamente a oportunidade de gerenciar backups dos seus 
 * Processo de realização do backup deverá ser realizado por usuário devidamente cadastrado e com processo de autenticação;
 * Entre as tarefas de gerenciamento do backup estão as seguintes rotinas:
 * - Criar backup (determinado diretório ou sistema completo) automático:
-  ** Selecionar o tipo do backup;
-  ** Selecionar o usuário;
-  ** Agendar o serviço;
-  ** Confirmação por meio de mensagem.
+  * Selecionar o tipo do backup;
+  * Selecionar o usuário;
+  * Agendar o serviço;
+  * Confirmação por meio de mensagem.
 * - Criar backup através do processo de agendamento:
-  ** Rotinas conforme backup automático
+  * Rotinas conforme backup automático
 
 * - Remover backup:
-  ** Excluir backup já realizado
+  * Excluir backup já realizado
 
 * - Apresentar histórico dos backups:
-  ** Apresentar uma lista de backups já realizados;
+  * Apresentar uma lista de backups já realizados;
 
 * - Recuperar backups:
-  ** Recuperação do backup selecionado.
+  * Recuperação do backup selecionado.
 
 
 ## Inspiração
@@ -39,9 +39,9 @@ Este website oferece gratuitamente a oportunidade de gerenciar backups dos seus 
 Bacula é um conjunto de programas de computador, que permite ao administrador de sistema gerenciar processos de backup, recuperar e verificar dados informáticos através de uma rede de computadores de diferentes tipos.
 
 * Características
-  ** Compatível com SOs Linux, Unix, Mac e Windows;
-  ** Verificação e gerenciamento dos backups por monitor;
-  ** Apresentação detalhado do status e informações adicionais dos backups.
+  * Compatível com SOs Linux, Unix, Mac e Windows;
+  * Verificação e gerenciamento dos backups por monitor;
+  * Apresentação detalhado do status e informações adicionais dos backups.
 
 Mais informações: http://www.kitploit.com/2015/05/bacula-network-backup-tool-for-linux.html
 
@@ -51,10 +51,10 @@ Mais informações: http://www.kitploit.com/2015/05/bacula-network-backup-tool-f
 Oferece uma solução simples para fazer backup de desktops e laptops baseados no Windows.
 
 * Características
-  ** Versão gratuita;
-  ** Notificações por e-mail;
-  ** Backup completo autônomo;
-  ** Ajuste do mecanismo de backup.
+  * Versão gratuita;
+  * Notificações por e-mail;
+  * Backup completo autônomo;
+  * Ajuste do mecanismo de backup.
 
 Mais informações: https://www.veeam.com/br/endpoint-backup-free.html
 
