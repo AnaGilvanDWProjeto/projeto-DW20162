@@ -19,14 +19,15 @@ Este website oferece gratuitamente a oportunidade de gerenciar backups dos seus 
   * Selecionar o usuário;
   * Agendar o serviço;
   * Confirmação por meio de mensagem.
+
 * - Criar backup através do processo de agendamento:
-  * Rotinas conforme backup automático
+  * Rotinas conforme backup automático.
 
 * - Remover backup:
-  * Excluir backup já realizado
+  * Excluir backup já realizado.
 
 * - Apresentar histórico dos backups:
-  * Apresentar uma lista de backups já realizados;
+  * Apresentar uma lista de backups já realizados.
 
 * - Recuperar backups:
   * Recuperação do backup selecionado.
