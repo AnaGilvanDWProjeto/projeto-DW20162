@@ -1,10 +1,10 @@
-// Comando para listar databases;
+// Listar databases;
 show databases;
 
-// Comando para criar databases;
+// Criar databases;
 create database <db-name>;
 
-// Comando para deletar databases;
+// Deletar databases;
 drop database <db-name>;
 
 // Antes de trabalhar com a databases desejada, se faz necessário acesso a ela
