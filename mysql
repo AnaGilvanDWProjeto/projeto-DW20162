@@ -1,0 +1,19 @@
+// Comando para listar databases;
+show databases;
+
+// Comando para criar databases;
+create database <db-name>;
+
+// Comando para deletar databases;
+drop database <db-name>;
+
+// Antes de trabalhar com a databases desejada, se faz necessário acesso a ela
+select DATABASE();
+
+// Criar tabelas - usuário com login
+create table users(
+  id int not null auto_increment,
+  name varchar(100) not null,
+  login varchar(20) not null,
+  primary key ( id )
+);
