@@ -64,8 +64,7 @@ Mais informações: https://www.veeam.com/br/endpoint-backup-free.html
 
 *Figura 1 - Layout da página*
 
-![Layout da página](img/Página inicial - login do mybackupweb.png)
-![Banner da disciplina](assets/dw.png)
+![Layout da página](img/Inicio_Mybackupweb.PNG)
 
 ## Protótipos
 
