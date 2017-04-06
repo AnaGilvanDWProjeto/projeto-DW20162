@@ -25,9 +25,9 @@ Entre as tarefas de gerenciamento do backup estão as seguintes rotinas:
 ### Criar backup através do processo de agendamento:
  * Rotinas conforme backup automático:
    * O agendamento poderá ser realizado da seguinte formas:
-    * Diariamente;
-    * Semanalmente;
-    * Mensalmente.
+     * Diariamente;
+     * Semanalmente;
+     * Mensalmente.
 
 ### Remover backup:
  * Excluir backup:
