@@ -12,31 +12,32 @@ Este website oferece gratuitamente a oportunidade de gerenciar backups dos seus 
 
 ## Objetivos
 
-Processo de realização do backup deverá ser realizado por usuário devidamente cadastrado e com processo de autenticação;
+Processo de realização do backup deverá ser realizado por usuário devidamente cadastrado e com processo de autenticação.
 Entre as tarefas de gerenciamento do backup estão as seguintes rotinas:
+
  ### Criar backup automático:
-    * Selecionar o tipo do backup: 
-      * Sistema;
-      * Diretório específico;
-    * Especificar local de armazenamento do backup:
-      * Caso não especificado o local de armazenamento, o backup será realizado em diretório default.
+  * Selecionar o tipo do backup: 
+    * Sistema;
+    * Diretório específico;
+  * Especificar local de armazenamento do backup:
+    * Caso não especificado o local de armazenamento, o backup será realizado em diretório default.
 
 ### Criar backup através do processo de agendamento:
-    * Rotinas conforme backup automático:
-     * O agendamento poderá ser realizado da seguinte formas:
-      * Diariamente;
-      * Semanalmente;
-      * Mensalmente.
+ * Rotinas conforme backup automático:
+   * O agendamento poderá ser realizado da seguinte formas:
+    * Diariamente;
+    * Semanalmente;
+    * Mensalmente.
 
 ### Remover backup:
-    * Excluir backup:
-     * Para excluir o backup desejado, será apresetado uma lista de todos os backups salvos.
+ * Excluir backup:
+   * Para excluir o backup desejado, será apresetado uma lista de todos os backups salvos.
 
 ### Apresentar histórico dos backups:
-    * Apresentar uma lista de backups já realizados através de uma lista.
+ * Apresentar uma lista de backups já realizados através de uma lista.
 
 ### Recuperar backups:
-    * Recuperação do backup selecionado.
+ * Recuperação do backup selecionado.
 
 
 ## Inspiração
