@@ -8,29 +8,34 @@ Esse projeto tem como objetivo a realização de backups promovendo a segurança
 
 O backup é muito valorizado por quem já perdeu informações importantes e não teve possibilidade de as recuperar. Portanto, é um procedimento altamente recomendável devido a frequência com que se perde informação digital.
 
-Este website oferece gratuitamente a oportunidade de gerenciar backups dos seus dados de forma simples não importando se seu sistema operacional (SO) Windows ou Linux.
+Este website oferece gratuitamente a oportunidade de gerenciar backups dos seus dados de forma simples em seu sistema operacional (SO) distribuição Linux.
 
 ## Objetivos
 
-* Processo de realização do backup deverá ser realizado por usuário devidamente cadastrado e com processo de autenticação;
-* Entre as tarefas de gerenciamento do backup estão as seguintes rotinas:
-  * Criar backup automático:
+Processo de realização do backup deverá ser realizado por usuário devidamente cadastrado e com processo de autenticação;
+Entre as tarefas de gerenciamento do backup estão as seguintes rotinas:
+ # Criar backup automático:
     * Selecionar o tipo do backup: 
       * Sistema;
       * Diretório específico;
     * Especificar local de armazenamento do backup:
       * Caso não especificado o local de armazenamento, o backup será realizado em diretório default.
 
-  * Criar backup através do processo de agendamento:
-    * Rotinas conforme backup automático.
+# Criar backup através do processo de agendamento:
+    * Rotinas conforme backup automático:
+     * O agendamento poderá ser realizado da seguinte formas:
+      * Diariamente;
+      * Semanalmente;
+      * Mensalmente.
 
-  * Remover backup:
-    * Excluir backup já realizado.
+# Remover backup:
+ * Excluir backup:
+  * Para excluir o backup desejado, será apresetado uma lista de todos os backups salvos.
 
-  * Apresentar histórico dos backups:
-    * Apresentar uma lista de backups já realizados.
+# Apresentar histórico dos backups:
+    * Apresentar uma lista de backups já realizados através de uma lista.
 
-  * Recuperar backups:
+# Recuperar backups:
     * Recuperação do backup selecionado.
 
 
@@ -72,7 +77,7 @@ Mais informações: https://www.veeam.com/br/endpoint-backup-free.html
 ![Layout da página](img/Mybackupweb.PNG)
 
 ## Comandos
-Exemplos de comandos para ações específicas e seu código
+Alguns exemplos de comandos para ações específicas do código
 
 
 ## Instalação
