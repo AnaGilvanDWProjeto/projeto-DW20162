@@ -77,8 +77,46 @@ Mais informações: https://www.veeam.com/br/endpoint-backup-free.html
 *Figura 3 - Gerenciamento de backups*
 ![Layout da página](img/Mybackupweb.PNG)
 
-## Comandos
-Alguns exemplos de comandos para ações específicas do código
+## Comandos - exemplos 
+##### Cadastro de usuário com integração ao BD
 
+     <?php
+       require_once "users-request.php";
 
-## Instalação
+       $user = $_POST["login"];
+       $password = $_POST["password"];
+
+       $userResquetDb = new UserRequest("mysql", "mybackupweb", "localhost", "root", "abc123");
+       if($user == null || $password == null){
+         header("Location: ../source/error.html");
+       }
+       else{
+         $userResquetDb->create_user($user, $password);
+         header("Location: ../source/ok.html");
+       }
+     ?>
+
+##### Autenticação de usuários cadastrado no BD
+    <?php
+    require_once "users-request.php";
+    session_start();
+    $user = $_POST["login"];
+    $password = $_POST["password"];
+
+    $userResquetDb = new UserRequest("mysql", "mybackupweb", "localhost", "root", "abc123");
+
+    if($user == null || $password == null){
+      header("Location: ../source/error.html");
+    }
+    else{
+      $_SESSION["user"]= $user ;
+      $_SESSION["auth"]= true ;
+      $return = $userResquetDb->auth_user($user, $password);
+      if($return == "false"){
+        header("Location: ../source/error.html");
+      }
+      else{
+        header("Location: ../source/ok.html");
+      }
+    }
+    ?>
