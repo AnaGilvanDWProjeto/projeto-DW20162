@@ -120,3 +120,25 @@ Mais informações: https://www.veeam.com/br/endpoint-backup-free.html
       }
     }
     ?>
+
+##### Criação de tabela users_backups no BD mybackupweb
+
+    CREATE TABLE public.users_backups
+    (
+      users character varying NOT NULL,
+      password character varying,
+      CONSTRAINT users_backups_pkey PRIMARY KEY (users))
+
+##### Criação de tabela data_backup no BD mybackupweb
+
+    CREATE TABLE public.data_backup
+    (
+      id integer NOT NULL,
+      created_by character varying,
+      storage_location character varying,
+      backup_time character varying,
+      CONSTRAINT data_backup_pkey PRIMARY KEY (id),
+      CONSTRAINT data_backup_created_by_fkey FOREIGN KEY (created_by)
+          REFERENCES public.users_backups (users) MATCH SIMPLE
+          ON UPDATE NO ACTION ON DELETE NO ACTION
+    )
