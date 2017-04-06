@@ -59,16 +59,16 @@ Oferece uma solução simples para fazer backup de desktops e laptops baseados n
 
 Mais informações: https://www.veeam.com/br/endpoint-backup-free.html
 
-
-.... **Figura 1**
-
 *Figura 1 - Layout da página*
-
 ![Layout da página](img/Inicio_Mybackupweb.PNG)
 
 ## Protótipos
 
-Apresentação de telas e seu objetivo inicial
+*Figura 2 - Cadastro de usuário*
+![Layout da página](img/Cadastro_Usuário.PNG)
+
+*Figura 3 - Gerenciamento de backups*
+![Layout da página](img/Mybackupweb.PNG)
 
 ## Comandos
 Exemplos de comandos para ações específicas e seu código
