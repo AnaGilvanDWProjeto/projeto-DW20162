@@ -66,10 +66,10 @@ Oferece uma solução simples para fazer backup de desktops e laptops baseados n
 
 Mais informações: https://www.veeam.com/br/endpoint-backup-free.html
 
+## Páginas desenvolvidas inicialmente
+
 *Figura 1 - Layout da página*
 ![Layout da página](img/Inicio_Mybackupweb.PNG)
-
-## Protótipos
 
 *Figura 2 - Cadastro de usuário*
 ![Layout da página](img/Cadastro_Usuário.PNG)
