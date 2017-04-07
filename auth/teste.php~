@@ -1,0 +1,11 @@
+<?php
+  ini_set('display_errors', 1);
+  require_once "users-request.php";
+
+  $userResquetDb = new UserRequest("mysql", "mybackupweb", "localhost", "root", "abc123");
+  $result = $userResquetDb->list_backup();
+  #$json = json_encode($result, JSON_PRETTY_PRINT);
+   
+   var_dump("$result");
+
+?>
