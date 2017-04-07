@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Last 10 Results</title>
+    </head>
+    <body>
+        <table>
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+		<td>Name</td>
+		<td>Name</td>
+            </tr>
+        </thead>
+        <tbody>
+        <?php
+	  ini_set('display_errors', 1);
+	  require_once "../auth/users-request.php";
+
+	  $userResquetDb = new UserRequest("mysql", "mybackupweb", "localhost", "root", "abc123");
+	  $res = $userResquetDb->list_backup();
+	  #$resut = json_encode($res, true);
+          foreach($row as $res) {
+            ?>
+                <tr>
+                    <td><?php echo $row['id']?></td>
+                    <td><?php echo $row['created_by']?></td>
+		    <td><?php echo $row['storage_location']?></td>
+                    <td><?php echo $row['backup_time']?></td>                
+		</tr>
+
+            <?php
+            }
+            ?>
+            </tbody>
+            </table>
+    </body>
+</html>

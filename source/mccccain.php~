@@ -1,0 +1,8 @@
+<?php
+
+ini_set('display_errors', 1);
+
+$date = date('Y-m-d H:i');
+shell_exec(" cp /var/backups/modelo.sh /var/backups/MyBackupWeb/");
+shell_exec("mv /var/backups/MyBackupWeb/modelo.sh /var/backups/MyBackupWeb/" . $date);
+?>
